@@ -1,0 +1,12 @@
+C:\Users\Kutay\Desktop\Clean_Architecture_Ogrenme\CleanArchitecture.WebApi\CleanArchitecture.Infastructure\bin\Debug\net8.0\CleanArchitecture.Infastructure.deps.json
+C:\Users\Kutay\Desktop\Clean_Architecture_Ogrenme\CleanArchitecture.WebApi\CleanArchitecture.Infastructure\bin\Debug\net8.0\CleanArchitecture.Infastructure.dll
+C:\Users\Kutay\Desktop\Clean_Architecture_Ogrenme\CleanArchitecture.WebApi\CleanArchitecture.Infastructure\bin\Debug\net8.0\CleanArchitecture.Infastructure.pdb
+C:\Users\Kutay\Desktop\Clean_Architecture_Ogrenme\CleanArchitecture.WebApi\CleanArchitecture.Infastructure\obj\Debug\net8.0\CleanArchitecture.Infastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kutay\Desktop\Clean_Architecture_Ogrenme\CleanArchitecture.WebApi\CleanArchitecture.Infastructure\obj\Debug\net8.0\CleanArchitecture.Infastructure.AssemblyInfoInputs.cache
+C:\Users\Kutay\Desktop\Clean_Architecture_Ogrenme\CleanArchitecture.WebApi\CleanArchitecture.Infastructure\obj\Debug\net8.0\CleanArchitecture.Infastructure.AssemblyInfo.cs
+C:\Users\Kutay\Desktop\Clean_Architecture_Ogrenme\CleanArchitecture.WebApi\CleanArchitecture.Infastructure\obj\Debug\net8.0\CleanArchitecture.Infastructure.csproj.CoreCompileInputs.cache
+C:\Users\Kutay\Desktop\Clean_Architecture_Ogrenme\CleanArchitecture.WebApi\CleanArchitecture.Infastructure\obj\Debug\net8.0\CleanArchitecture.Infastructure.sourcelink.json
+C:\Users\Kutay\Desktop\Clean_Architecture_Ogrenme\CleanArchitecture.WebApi\CleanArchitecture.Infastructure\obj\Debug\net8.0\CleanArchitecture.Infastructure.dll
+C:\Users\Kutay\Desktop\Clean_Architecture_Ogrenme\CleanArchitecture.WebApi\CleanArchitecture.Infastructure\obj\Debug\net8.0\refint\CleanArchitecture.Infastructure.dll
+C:\Users\Kutay\Desktop\Clean_Architecture_Ogrenme\CleanArchitecture.WebApi\CleanArchitecture.Infastructure\obj\Debug\net8.0\CleanArchitecture.Infastructure.pdb
+C:\Users\Kutay\Desktop\Clean_Architecture_Ogrenme\CleanArchitecture.WebApi\CleanArchitecture.Infastructure\obj\Debug\net8.0\ref\CleanArchitecture.Infastructure.dll
