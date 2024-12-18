@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.WebApi", "CleanArchitecture.WebApi\CleanArchitecture.WebApi.csproj", "{DD1E51E9-ACD8-4CE8-85FC-22A4425E9ABB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{94238CA2-1437-4683-8A38-4F8A778BA07C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{CD0AACCC-8DE2-45D5-A0BD-36B8A6395DDD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External", "External", "{B8133ADB-F8B5-475A-9675-BAA64E92FDEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.Application", "CleanArchitecture.Application\CleanArchitecture.Application.csproj", "{75E353CD-E8BD-46E2-B5F1-9B2CB4B8BB18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD1E51E9-ACD8-4CE8-85FC-22A4425E9ABB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD1E51E9-ACD8-4CE8-85FC-22A4425E9ABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD1E51E9-ACD8-4CE8-85FC-22A4425E9ABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD1E51E9-ACD8-4CE8-85FC-22A4425E9ABB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75E353CD-E8BD-46E2-B5F1-9B2CB4B8BB18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75E353CD-E8BD-46E2-B5F1-9B2CB4B8BB18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75E353CD-E8BD-46E2-B5F1-9B2CB4B8BB18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75E353CD-E8BD-46E2-B5F1-9B2CB4B8BB18}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CD0AACCC-8DE2-45D5-A0BD-36B8A6395DDD} = {94238CA2-1437-4683-8A38-4F8A778BA07C}
+		{B8133ADB-F8B5-475A-9675-BAA64E92FDEC} = {94238CA2-1437-4683-8A38-4F8A778BA07C}
+		{75E353CD-E8BD-46E2-B5F1-9B2CB4B8BB18} = {CD0AACCC-8DE2-45D5-A0BD-36B8A6395DDD}
+	EndGlobalSection
+EndGlobal
