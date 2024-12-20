@@ -1,7 +1,10 @@
+using CleanArchitecture.Application.Services;
 using CleanArchitecture.Persistance.Context;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddScoped<ICarService, ICarService>();
 
 string connectionString = builder.Configuration.GetConnectionString("SqlServer");
 
