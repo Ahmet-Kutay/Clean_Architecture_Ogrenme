@@ -3,32 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DD1E51E9-ACD8-4CE8-85FC-22A4425E9ABB}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|c:\\users\\kutay\\desktop\\clean_architecture_ogrenme\\cleanarchitecture.webapi\\cleanarchitecture.webapi\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD1E51E9-ACD8-4CE8-85FC-22A4425E9ABB}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|solutionrelative:cleanarchitecture.webapi\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.Persistance\\Migrations\\20241220115719_mg2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CleanArchitecture.Persistance\\Migrations\\20241220115719_mg2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28D43E14-CA7F-4363-AC18-D141DCB36154}|CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj|c:\\users\\kutay\\desktop\\clean_architecture_ogrenme\\cleanarchitecture.webapi\\cleanarchitecture.domain\\entities\\errorlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28D43E14-CA7F-4363-AC18-D141DCB36154}|CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj|solutionrelative:cleanarchitecture.domain\\entities\\errorlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD1E51E9-ACD8-4CE8-85FC-22A4425E9ABB}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|c:\\users\\kutay\\desktop\\clean_architecture_ogrenme\\cleanarchitecture.webapi\\cleanarchitecture.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD1E51E9-ACD8-4CE8-85FC-22A4425E9ABB}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|solutionrelative:cleanarchitecture.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD1E51E9-ACD8-4CE8-85FC-22A4425E9ABB}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|c:\\users\\kutay\\desktop\\clean_architecture_ogrenme\\cleanarchitecture.webapi\\cleanarchitecture.webapi\\middleware\\middlewareextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD1E51E9-ACD8-4CE8-85FC-22A4425E9ABB}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|solutionrelative:cleanarchitecture.webapi\\middleware\\middlewareextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{53540BE4-3582-48CA-85FB-6E76A7FA8AF2}|CleanArchitecture.Persistance\\CleanArchitecture.Persistance.csproj|c:\\users\\kutay\\desktop\\clean_architecture_ogrenme\\cleanarchitecture.webapi\\cleanarchitecture.persistance\\configurations\\errorlogconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53540BE4-3582-48CA-85FB-6E76A7FA8AF2}|CleanArchitecture.Persistance\\CleanArchitecture.Persistance.csproj|solutionrelative:cleanarchitecture.persistance\\configurations\\errorlogconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD1E51E9-ACD8-4CE8-85FC-22A4425E9ABB}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|c:\\users\\kutay\\desktop\\clean_architecture_ogrenme\\cleanarchitecture.webapi\\cleanarchitecture.webapi\\middleware\\errorresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD1E51E9-ACD8-4CE8-85FC-22A4425E9ABB}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|solutionrelative:cleanarchitecture.webapi\\middleware\\errorresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{291A4E04-B05A-4BA7-9437-3174FD99B5E2}|CleanArchitecture.UnitTest\\CleanArchitecture.UnitTest.csproj|c:\\users\\kutay\\desktop\\clean_architecture_ogrenme\\cleanarchitecture.webapi\\cleanarchitecture.unittest\\carscontrollerunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{291A4E04-B05A-4BA7-9437-3174FD99B5E2}|CleanArchitecture.UnitTest\\CleanArchitecture.UnitTest.csproj|solutionrelative:cleanarchitecture.unittest\\carscontrollerunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,97 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20241220115719_mg2.cs",
-              "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.Persistance\\Migrations\\20241220115719_mg2.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.Persistance\\Migrations\\20241220115719_mg2.cs",
-              "ToolTip": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.Persistance\\Migrations\\20241220115719_mg2.cs",
-              "RelativeToolTip": "CleanArchitecture.Persistance\\Migrations\\20241220115719_mg2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T11:57:19.302Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ErrorLogConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.Persistance\\Configurations\\ErrorLogConfiguration.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.Persistance\\Configurations\\ErrorLogConfiguration.cs",
-              "ToolTip": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.Persistance\\Configurations\\ErrorLogConfiguration.cs",
-              "RelativeToolTip": "CleanArchitecture.Persistance\\Configurations\\ErrorLogConfiguration.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T11:56:09.05Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ErrorLog.cs",
-              "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.Domain\\Entities\\ErrorLog.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.Domain\\Entities\\ErrorLog.cs",
-              "ToolTip": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.Domain\\Entities\\ErrorLog.cs",
-              "RelativeToolTip": "CleanArchitecture.Domain\\Entities\\ErrorLog.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T11:54:53.375Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.WebApi\\Program.cs",
-              "ToolTip": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.WebApi\\Program.cs",
-              "RelativeToolTip": "CleanArchitecture.WebApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T11:44:03.936Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MiddlewareExtension.cs",
-              "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.WebApi\\Middleware\\MiddlewareExtension.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.WebApi\\Middleware\\MiddlewareExtension.cs",
-              "ToolTip": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.WebApi\\Middleware\\MiddlewareExtension.cs",
-              "RelativeToolTip": "CleanArchitecture.WebApi\\Middleware\\MiddlewareExtension.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T11:41:35.163Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ExceptionMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.WebApi\\Middleware\\ExceptionMiddleware.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.WebApi\\Middleware\\ExceptionMiddleware.cs",
-              "ToolTip": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.WebApi\\Middleware\\ExceptionMiddleware.cs",
-              "RelativeToolTip": "CleanArchitecture.WebApi\\Middleware\\ExceptionMiddleware.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAqwCkAAAAAAAAAAAAAAA==",
+              "Title": "CarsControllerUnitTest.cs",
+              "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.UnitTest\\CarsControllerUnitTest.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.UnitTest\\CarsControllerUnitTest.cs",
+              "ToolTip": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.UnitTest\\CarsControllerUnitTest.cs",
+              "RelativeToolTip": "CleanArchitecture.UnitTest\\CarsControllerUnitTest.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAiwBMAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T11:30:15.279Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ErrorResult.cs",
-              "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.WebApi\\Middleware\\ErrorResult.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.WebApi\\Middleware\\ErrorResult.cs",
-              "ToolTip": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.WebApi\\Middleware\\ErrorResult.cs",
-              "RelativeToolTip": "CleanArchitecture.WebApi\\Middleware\\ErrorResult.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T11:27:28.132Z",
+              "WhenOpened": "2024-12-20T12:02:11.32Z",
               "EditorCaption": ""
             }
           ]
