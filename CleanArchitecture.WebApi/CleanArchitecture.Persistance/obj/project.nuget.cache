@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "lNR60dZ9mvs=",
+  "dgSpecHash": "CtNx1WC95Pw=",
   "success": true,
   "projectFilePath": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.Persistance\\CleanArchitecture.Persistance.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\Kutay\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\Kutay\\.nuget\\packages\\documentformat.openxml\\3.2.0\\documentformat.openxml.3.2.0.nupkg.sha512",
     "C:\\Users\\Kutay\\.nuget\\packages\\documentformat.openxml.framework\\3.2.0\\documentformat.openxml.framework.3.2.0.nupkg.sha512",
+    "C:\\Users\\Kutay\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
     "C:\\Users\\Kutay\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Kutay\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
     "C:\\Users\\Kutay\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
