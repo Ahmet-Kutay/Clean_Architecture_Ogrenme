@@ -9,10 +9,7 @@
   <ItemGroup>
     <PackageReference Include="FluentValidation" Version="11.11.0" />
     <PackageReference Include="MediatR" Version="12.4.1" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Features\CarFeatures\Queries\" />
+    <PackageReference Include="Microsoft.ServiceFabric" Version="10.1.2493" />
   </ItemGroup>
 
   <ItemGroup>
