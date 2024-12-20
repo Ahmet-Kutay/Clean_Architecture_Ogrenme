@@ -10,6 +10,9 @@ builder.Services.AddDbContext<AppDbContext>(options =>options.UseSqlServer(conne
 builder.Services.AddControllers()
     .AddApplicationPart(typeof(CleanArchitecture.Presentation.AssemblyReference).Assembly);
 
+builder.Services.AddMediatR(cfr =>
+    cfr.RegisterServicesFromAssembly(typeof(CleanArchitecture.Application.AssemblyReference).Assembly));
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
