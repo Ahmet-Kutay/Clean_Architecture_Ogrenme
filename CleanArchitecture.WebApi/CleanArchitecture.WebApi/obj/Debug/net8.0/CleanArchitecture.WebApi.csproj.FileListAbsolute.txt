@@ -152,3 +152,5 @@ C:\Users\Kutay\Desktop\Clean_Architecture_Ogrenme\CleanArchitecture.WebApi\Clean
 C:\Users\Kutay\Desktop\Clean_Architecture_Ogrenme\CleanArchitecture.WebApi\CleanArchitecture.WebApi\bin\Debug\net8.0\MediatR.Contracts.dll
 C:\Users\Kutay\Desktop\Clean_Architecture_Ogrenme\CleanArchitecture.WebApi\CleanArchitecture.WebApi\bin\Debug\net8.0\CleanArchitecture.Application.dll
 C:\Users\Kutay\Desktop\Clean_Architecture_Ogrenme\CleanArchitecture.WebApi\CleanArchitecture.WebApi\bin\Debug\net8.0\CleanArchitecture.Application.pdb
+C:\Users\Kutay\Desktop\Clean_Architecture_Ogrenme\CleanArchitecture.WebApi\CleanArchitecture.WebApi\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\Kutay\Desktop\Clean_Architecture_Ogrenme\CleanArchitecture.WebApi\CleanArchitecture.WebApi\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
