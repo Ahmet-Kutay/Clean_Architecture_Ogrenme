@@ -5,11 +5,30 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Values": {
-      "get": {
+    "/api(Cars/Create": {
+      "post": {
         "tags": [
-          "Values"
+          "Cars"
         ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateCarCommand"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateCarCommand"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateCarCommand"
+              }
+            }
+          }
+        },
         "responses": {
           "200": {
             "description": "OK"
@@ -18,5 +37,26 @@
       }
     }
   },
-  "components": { }
+  "components": {
+    "schemas": {
+      "CreateCarCommand": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "model": {
+            "type": "string",
+            "nullable": true
+          },
+          "enginePower": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
 }
