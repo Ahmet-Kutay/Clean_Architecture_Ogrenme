@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E6D1AA15-C7D4-4215-84BD-F4B7FD11B190}|CleanArchitecture.Presentation\\CleanArchitecture.Presentation.csproj|c:\\users\\kutay\\desktop\\clean_architecture_ogrenme\\cleanarchitecture.webapi\\cleanarchitecture.presentation\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6D1AA15-C7D4-4215-84BD-F4B7FD11B190}|CleanArchitecture.Presentation\\CleanArchitecture.Presentation.csproj|solutionrelative:cleanarchitecture.presentation\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53540BE4-3582-48CA-85FB-6E76A7FA8AF2}|CleanArchitecture.Persistance\\CleanArchitecture.Persistance.csproj|c:\\users\\kutay\\desktop\\clean_architecture_ogrenme\\cleanarchitecture.webapi\\cleanarchitecture.persistance\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53540BE4-3582-48CA-85FB-6E76A7FA8AF2}|CleanArchitecture.Persistance\\CleanArchitecture.Persistance.csproj|solutionrelative:cleanarchitecture.persistance\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75E353CD-E8BD-46E2-B5F1-9B2CB4B8BB18}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|c:\\users\\kutay\\desktop\\clean_architecture_ogrenme\\cleanarchitecture.webapi\\cleanarchitecture.application\\features\\authfeatures\\commands\\register\\registercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75E353CD-E8BD-46E2-B5F1-9B2CB4B8BB18}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:cleanarchitecture.application\\features\\authfeatures\\commands\\register\\registercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75E353CD-E8BD-46E2-B5F1-9B2CB4B8BB18}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|c:\\users\\kutay\\desktop\\clean_architecture_ogrenme\\cleanarchitecture.webapi\\cleanarchitecture.application\\features\\authfeatures\\commands\\register\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75E353CD-E8BD-46E2-B5F1-9B2CB4B8BB18}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:cleanarchitecture.application\\features\\authfeatures\\commands\\register\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DD1E51E9-ACD8-4CE8-85FC-22A4425E9ABB}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|c:\\users\\kutay\\desktop\\clean_architecture_ogrenme\\cleanarchitecture.webapi\\cleanarchitecture.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD1E51E9-ACD8-4CE8-85FC-22A4425E9ABB}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|solutionrelative:cleanarchitecture.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75E353CD-E8BD-46E2-B5F1-9B2CB4B8BB18}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|c:\\users\\kutay\\desktop\\clean_architecture_ogrenme\\cleanarchitecture.webapi\\cleanarchitecture.application\\services\\icarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75E353CD-E8BD-46E2-B5F1-9B2CB4B8BB18}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:cleanarchitecture.application\\services\\icarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{53540BE4-3582-48CA-85FB-6E76A7FA8AF2}|CleanArchitecture.Persistance\\CleanArchitecture.Persistance.csproj|c:\\users\\kutay\\desktop\\clean_architecture_ogrenme\\cleanarchitecture.webapi\\cleanarchitecture.persistance\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53540BE4-3582-48CA-85FB-6E76A7FA8AF2}|CleanArchitecture.Persistance\\CleanArchitecture.Persistance.csproj|solutionrelative:cleanarchitecture.persistance\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{53540BE4-3582-48CA-85FB-6E76A7FA8AF2}|CleanArchitecture.Persistance\\CleanArchitecture.Persistance.csproj|c:\\users\\kutay\\desktop\\clean_architecture_ogrenme\\cleanarchitecture.webapi\\cleanarchitecture.persistance\\repositories\\carrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53540BE4-3582-48CA-85FB-6E76A7FA8AF2}|CleanArchitecture.Persistance\\CleanArchitecture.Persistance.csproj|solutionrelative:cleanarchitecture.persistance\\repositories\\carrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{53540BE4-3582-48CA-85FB-6E76A7FA8AF2}|CleanArchitecture.Persistance\\CleanArchitecture.Persistance.csproj|c:\\users\\kutay\\desktop\\clean_architecture_ogrenme\\cleanarchitecture.webapi\\cleanarchitecture.persistance\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53540BE4-3582-48CA-85FB-6E76A7FA8AF2}|CleanArchitecture.Persistance\\CleanArchitecture.Persistance.csproj|solutionrelative:cleanarchitecture.persistance\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{53540BE4-3582-48CA-85FB-6E76A7FA8AF2}|CleanArchitecture.Persistance\\CleanArchitecture.Persistance.csproj|c:\\users\\kutay\\desktop\\clean_architecture_ogrenme\\cleanarchitecture.webapi\\cleanarchitecture.persistance\\services\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53540BE4-3582-48CA-85FB-6E76A7FA8AF2}|CleanArchitecture.Persistance\\CleanArchitecture.Persistance.csproj|solutionrelative:cleanarchitecture.persistance\\services\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{28D43E14-CA7F-4363-AC18-D141DCB36154}|CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj|c:\\users\\kutay\\desktop\\clean_architecture_ogrenme\\cleanarchitecture.webapi\\cleanarchitecture.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28D43E14-CA7F-4363-AC18-D141DCB36154}|CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj|solutionrelative:cleanarchitecture.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +42,110 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ICarService.cs",
-              "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.Application\\Services\\ICarService.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.Application\\Services\\ICarService.cs",
-              "ToolTip": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.Application\\Services\\ICarService.cs",
-              "RelativeToolTip": "CleanArchitecture.Application\\Services\\ICarService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.Presentation\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Presentation\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.Presentation\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "CleanArchitecture.Presentation\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T08:50:18.911Z",
+              "WhenOpened": "2024-12-25T13:24:22.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.Persistance\\Mappings\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Persistance\\Mappings\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.Persistance\\Mappings\\MappingProfile.cs",
+              "RelativeToolTip": "CleanArchitecture.Persistance\\Mappings\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T13:08:57.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.Persistance\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Persistance\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.Persistance\\Services\\AuthService.cs",
+              "RelativeToolTip": "CleanArchitecture.Persistance\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T13:08:03.405Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CarRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.Persistance\\Repositories\\CarRepository.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.Persistance\\Repositories\\CarRepository.cs",
-              "ToolTip": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.Persistance\\Repositories\\CarRepository.cs",
-              "RelativeToolTip": "CleanArchitecture.Persistance\\Repositories\\CarRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Title": "RegisterCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.Application\\Features\\AuthFeatures\\Commands\\Register\\RegisterCommandHandler.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Application\\Features\\AuthFeatures\\Commands\\Register\\RegisterCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.Application\\Features\\AuthFeatures\\Commands\\Register\\RegisterCommandHandler.cs",
+              "RelativeToolTip": "CleanArchitecture.Application\\Features\\AuthFeatures\\Commands\\Register\\RegisterCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T08:20:31.362Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.WebApi\\Program.cs",
-              "ToolTip": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.WebApi\\Program.cs",
-              "RelativeToolTip": "CleanArchitecture.WebApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T07:46:17.377Z",
+              "WhenOpened": "2024-12-25T13:05:17.796Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CarService.cs",
-              "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.Persistance\\Services\\CarService.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.Persistance\\Services\\CarService.cs",
-              "ToolTip": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.Persistance\\Services\\CarService.cs",
-              "RelativeToolTip": "CleanArchitecture.Persistance\\Services\\CarService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAowCoAAAANAAAAAAAAAA==",
+              "Title": "RegisterCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.Application\\Features\\AuthFeatures\\Commands\\Register\\RegisterCommand.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Application\\Features\\AuthFeatures\\Commands\\Register\\RegisterCommand.cs",
+              "ToolTip": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.Application\\Features\\AuthFeatures\\Commands\\Register\\RegisterCommand.cs",
+              "RelativeToolTip": "CleanArchitecture.Application\\Features\\AuthFeatures\\Commands\\Register\\RegisterCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T07:20:51.921Z",
+              "WhenOpened": "2024-12-25T13:03:50.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.WebApi\\Program.cs",
+              "RelativeToolTip": "CleanArchitecture.WebApi\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAmwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T12:54:34.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.Persistance\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Persistance\\Context\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.Persistance\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "CleanArchitecture.Persistance\\Context\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T12:53:26.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "CleanArchitecture.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T12:35:27.199Z",
               "EditorCaption": ""
             }
           ]

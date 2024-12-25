@@ -52,13 +52,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "MR.EntityFrameworkCore.KeysetPagination": {
+              "target": "Package",
+              "version": "[1.4.1, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.UnitOfWork": {
               "target": "Package",
               "version": "[3.1.0, )"
-            },
-            "TS.EntityFrameworkCore.GenericRepository": {
-              "target": "Package",
-              "version": "[8.0.0, )"
             }
           },
           "imports": [

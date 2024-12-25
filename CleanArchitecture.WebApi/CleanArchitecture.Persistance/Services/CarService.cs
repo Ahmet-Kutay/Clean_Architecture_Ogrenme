@@ -6,8 +6,8 @@ using CleanArchitecture.Domain.Entities;
 using CleanArchitecture.Domain.Repositories;
 using CleanArchitecture.Persistance.Context;
 using EntityFrameworkCorePagination.Nuget.Pagination;
-using GenericRepository;
 using Microsoft.EntityFrameworkCore;
+using CleanArchitecture.Domain.Abstractions;
 
 namespace CleanArchitecture.Persistance.Services;
 
@@ -23,6 +23,11 @@ public sealed class CarService : ICarService
         _mapper = mapper;
         _carRepository = carRepository;
         _unitOfWork = unitOfWork;
+    }
+
+    public Task AddRangeAsync(IList<Car> cars, CancellationToken cancellationToken)
+    {
+        throw new NotImplementedException();
     }
 
     public async Task CreateAsync(CreateCarCommand request, CancellationToken cancellationToken)

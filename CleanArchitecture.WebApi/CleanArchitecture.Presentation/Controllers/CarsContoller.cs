@@ -1,4 +1,4 @@
-﻿using CleanArchitecture.Application.Features.CarFeatures.Commands.CreateCar;
+using CleanArchitecture.Application.Features.CarFeatures.Commands.CreateCar;
 using CleanArchitecture.Application.Features.CarFeatures.Queries.GetAllCar;
 using CleanArchitecture.Domain.Dtos;
 using CleanArchitecture.Domain.Entities;
@@ -11,8 +11,7 @@ namespace CleanArchitecture.Presentation.Controllers
 {
     public sealed class CarsController : ApiController
     {
-        private readonly AppContext context;
-        public CarsController(IMediator mediator) : base(mediator) { }
+        public CarsController(IMediator mediator) : base(mediator) {}
 
         [HttpPost("[action]")]
         public async Task<IActionResult> Create(CreateCarCommand request,
@@ -21,13 +20,14 @@ namespace CleanArchitecture.Presentation.Controllers
             MessageResponse response = await _mediator.Send(request, cancellationToken);
             return Ok(response);
         }
+
         [HttpGet("[action]")]
         public async Task<IActionResult> GetAll(GetAllCarQuery request,
             CancellationToken cancellationToken)
         {
+            
             PaginationResult<Car> response = await _mediator.Send(request, cancellationToken);
             return Ok(response);
-
         }
-}
+    }
 }

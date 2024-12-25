@@ -4,36 +4,47 @@ using CleanArchitecture.Domain.Repositories;
 using CleanArchitecture.Persistance.Context;
 using CleanArchitecture.Persistance.Repositories;
 using CleanArchitecture.Persistance.Services; // CarService'in namespace'i
+using CleanArchitecture.Persistence.Repositories;
 using CleanArchitecture.WebApi.Middleware;
 using FluentValidation;
-using GenericRepository;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
-
+using CleanArchitecture.Domain.Abstractions;
+using CleanArchitecture.Persistance;
+using Microsoft.AspNetCore.Identity;
+using CleanArchitecture.Domain.Entities;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Doðru eþleþtirme yapýlýr
+// Doï¿½ru eï¿½leï¿½tirme yapï¿½lï¿½r
 builder.Services.AddScoped<ICarService, CarService>();
+builder.Services.AddScoped<IAuthService, AuthService>();
 
 builder.Services.AddTransient<ExceptionMiddleware>();
-builder.Services.AddScoped<IUnitOfWork, UnitOfWork<AppDbContext>>();
-
 builder.Services.AddScoped<ICarRepository, CarRepository>();
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+
 
 builder.Services.AddAutoMapper(typeof(CleanArchitecture.Persistance.AssemblyReference).Assembly);
 
 string connectionString = builder.Configuration.GetConnectionString("SqlServer");
 
-// DbContext kaydý
+// DbContext kaydï¿½
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(connectionString));
 
-// Controller'larýn eklenmesi
+builder.Services.AddIdentity<User, IdentityRole>(options =>
+{
+    options.Password.RequireNonAlphanumeric = false;
+    options.Password.RequireUppercase = false;
+    options.Password.RequiredLength = 1;
+}).AddEntityFrameworkStores<AppDbContext>(); 
+
+// Controller'larï¿½n eklenmesi
 builder.Services.AddControllers()
     .AddApplicationPart(typeof(CleanArchitecture.Presentation.AssemblyReference).Assembly);
 
-// MediatR yapýlandýrmasý
+// MediatR yapï¿½landï¿½rmasï¿½
 builder.Services.AddMediatR(cfr =>
     cfr.RegisterServicesFromAssembly(typeof(CleanArchitecture.Application.AssemblyReference).Assembly));
 
@@ -45,7 +56,7 @@ builder.Services.AddValidatorsFromAssembly(typeof
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Uygulama oluþturuluyor
+// Uygulama oluï¿½turuluyor
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
