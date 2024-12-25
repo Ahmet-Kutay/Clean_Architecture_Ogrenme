@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ApUEvD7DhLI=",
+  "dgSpecHash": "yvHTVsJj69g=",
   "success": true,
   "projectFilePath": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.UnitTest\\CleanArchitecture.UnitTest.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "C:\\Users\\Kutay\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\Kutay\\.nuget\\packages\\documentformat.openxml\\3.2.0\\documentformat.openxml.3.2.0.nupkg.sha512",
     "C:\\Users\\Kutay\\.nuget\\packages\\documentformat.openxml.framework\\3.2.0\\documentformat.openxml.framework.3.2.0.nupkg.sha512",
+    "C:\\Users\\Kutay\\.nuget\\packages\\entityframeworkcore.pagination\\8.0.0\\entityframeworkcore.pagination.8.0.0.nupkg.sha512",
     "C:\\Users\\Kutay\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
     "C:\\Users\\Kutay\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
     "C:\\Users\\Kutay\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
@@ -39,8 +40,10 @@
     "C:\\Users\\Kutay\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.0\\microsoft.entityframeworkcore.8.0.0.nupkg.sha512",
     "C:\\Users\\Kutay\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.0\\microsoft.entityframeworkcore.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Kutay\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.0\\microsoft.entityframeworkcore.analyzers.8.0.0.nupkg.sha512",
+    "C:\\Users\\Kutay\\.nuget\\packages\\microsoft.entityframeworkcore.autohistory\\3.1.1\\microsoft.entityframeworkcore.autohistory.3.1.1.nupkg.sha512",
     "C:\\Users\\Kutay\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.0\\microsoft.entityframeworkcore.relational.8.0.0.nupkg.sha512",
     "C:\\Users\\Kutay\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\8.0.0\\microsoft.entityframeworkcore.sqlserver.8.0.0.nupkg.sha512",
+    "C:\\Users\\Kutay\\.nuget\\packages\\microsoft.entityframeworkcore.unitofwork\\3.1.0\\microsoft.entityframeworkcore.unitofwork.3.1.0.nupkg.sha512",
     "C:\\Users\\Kutay\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Kutay\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.0\\microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
     "C:\\Users\\Kutay\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",

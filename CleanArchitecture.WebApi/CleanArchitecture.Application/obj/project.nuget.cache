@@ -1,15 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "SKsGRfJOGFE=",
+  "dgSpecHash": "BzEpQkq/xZI=",
   "success": true,
   "projectFilePath": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Kutay\\.nuget\\packages\\entityframeworkcore.pagination\\8.0.0\\entityframeworkcore.pagination.8.0.0.nupkg.sha512",
     "C:\\Users\\Kutay\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
     "C:\\Users\\Kutay\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
     "C:\\Users\\Kutay\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\Kutay\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.0\\microsoft.entityframeworkcore.8.0.0.nupkg.sha512",
     "C:\\Users\\Kutay\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.0\\microsoft.entityframeworkcore.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Kutay\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.0\\microsoft.entityframeworkcore.analyzers.8.0.0.nupkg.sha512",
+    "C:\\Users\\Kutay\\.nuget\\packages\\microsoft.entityframeworkcore.autohistory\\3.1.1\\microsoft.entityframeworkcore.autohistory.3.1.1.nupkg.sha512",
+    "C:\\Users\\Kutay\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\3.1.0\\microsoft.entityframeworkcore.relational.3.1.0.nupkg.sha512",
+    "C:\\Users\\Kutay\\.nuget\\packages\\microsoft.entityframeworkcore.unitofwork\\3.1.0\\microsoft.entityframeworkcore.unitofwork.3.1.0.nupkg.sha512",
     "C:\\Users\\Kutay\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Kutay\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.0\\microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
     "C:\\Users\\Kutay\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
@@ -19,6 +23,7 @@
     "C:\\Users\\Kutay\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
     "C:\\Users\\Kutay\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\Kutay\\.nuget\\packages\\microsoft.servicefabric\\10.1.2493\\microsoft.servicefabric.10.1.2493.nupkg.sha512",
+    "C:\\Users\\Kutay\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\Kutay\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\Kutay\\.nuget\\packages\\ts.entityframeworkcore.genericrepository\\8.0.0\\ts.entityframeworkcore.genericrepository.8.0.0.nupkg.sha512"
   ],

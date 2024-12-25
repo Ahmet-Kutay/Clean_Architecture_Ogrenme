@@ -18,6 +18,7 @@ builder.Services.AddScoped<ICarService, CarService>();
 
 builder.Services.AddTransient<ExceptionMiddleware>();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork<AppDbContext>>();
+
 builder.Services.AddScoped<ICarRepository, CarRepository>();
 
 builder.Services.AddAutoMapper(typeof(CleanArchitecture.Persistance.AssemblyReference).Assembly);

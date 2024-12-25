@@ -1,5 +1,6 @@
 ﻿using CleanArchitecture.Application.Services;
 using CleanArchitecture.Domain.Entities;
+using EntityFrameworkCorePagination.Nuget.Pagination;
 using MediatR;
 
 namespace CleanArchitecture.Application.Features.CarFeatures.Queries.GetAllCar;

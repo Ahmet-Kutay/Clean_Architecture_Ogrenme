@@ -18,8 +18,10 @@
           "MediatR": "12.4.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.0",
+          "Microsoft.EntityFrameworkCore.UnitOfWork": "3.1.0",
           "Newtonsoft.Json": "13.0.1",
           "Swashbuckle.AspNetCore": "6.6.2",
+          "TS.EntityFrameworkCore.GenericRepository": "8.0.0",
           "elmah.corelibrary": "1.2.2"
         },
         "runtime": {
@@ -110,6 +112,17 @@
           "lib/Elmah.dll": {
             "assemblyVersion": "1.2.14706.0",
             "fileVersion": "1.2.14706.955"
+          }
+        }
+      },
+      "EntityFrameworkCore.Pagination/8.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/EntityFrameworkCorePagination.Nuget.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.0.0"
           }
         }
       },
@@ -592,6 +605,18 @@
         }
       },
       "Microsoft.EntityFrameworkCore.Analyzers/8.0.0": {},
+      "Microsoft.EntityFrameworkCore.AutoHistory/3.1.1": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "8.0.0",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.AutoHistory.dll": {
+            "assemblyVersion": "3.1.1.0",
+            "fileVersion": "3.1.1.0"
+          }
+        }
+      },
       "Microsoft.EntityFrameworkCore.Design/8.0.0": {
         "dependencies": {
           "Humanizer.Core": "2.14.1",
@@ -634,6 +659,18 @@
       "Microsoft.EntityFrameworkCore.Tools/8.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "8.0.0"
+        }
+      },
+      "Microsoft.EntityFrameworkCore.UnitOfWork/3.1.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.AutoHistory": "3.1.1",
+          "Microsoft.EntityFrameworkCore.Relational": "8.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.UnitOfWork.dll": {
+            "assemblyVersion": "3.1.0.0",
+            "fileVersion": "3.1.0.0"
+          }
         }
       },
       "Microsoft.Extensions.ApiDescription.Server/6.0.5": {},
@@ -812,6 +849,151 @@
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {
             "assemblyVersion": "1.6.14.0",
             "fileVersion": "1.6.14.0"
+          }
+        }
+      },
+      "Microsoft.ServiceFabric/10.1.2493": {
+        "dependencies": {
+          "System.Memory": "4.5.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ServiceFabric.Internal.Strings.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.0.0"
+          },
+          "lib/netstandard2.0/Microsoft.ServiceFabric.Internal.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.0.0"
+          },
+          "lib/netstandard2.0/Microsoft.ServiceFabric.Preview.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.0.0"
+          },
+          "lib/netstandard2.0/StartupServicesModel.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.0.0"
+          },
+          "lib/netstandard2.0/System.Fabric.Management.ServiceModel.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.0.0"
+          },
+          "lib/netstandard2.0/System.Fabric.Strings.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.0.0"
+          },
+          "lib/netstandard2.0/System.Fabric.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.0.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux/lib/netstandard2.0/Microsoft.ServiceFabric.Internal.McgInterop.dll": {
+            "rid": "linux",
+            "assetType": "runtime",
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux/lib/netstandard2.0/Microsoft.ServiceFabric.Internal.Strings.dll": {
+            "rid": "linux",
+            "assetType": "runtime",
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.0.0"
+          },
+          "runtimes/linux/lib/netstandard2.0/Microsoft.ServiceFabric.Internal.dll": {
+            "rid": "linux",
+            "assetType": "runtime",
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.0.0"
+          },
+          "runtimes/linux/lib/netstandard2.0/Microsoft.ServiceFabric.Preview.dll": {
+            "rid": "linux",
+            "assetType": "runtime",
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.0.0"
+          },
+          "runtimes/linux/lib/netstandard2.0/StartupServicesModel.dll": {
+            "rid": "linux",
+            "assetType": "runtime",
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.0.0"
+          },
+          "runtimes/linux/lib/netstandard2.0/System.Fabric.Management.ServiceModel.dll": {
+            "rid": "linux",
+            "assetType": "runtime",
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.0.0"
+          },
+          "runtimes/linux/lib/netstandard2.0/System.Fabric.McgInterop.dll": {
+            "rid": "linux",
+            "assetType": "runtime",
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux/lib/netstandard2.0/System.Fabric.Strings.dll": {
+            "rid": "linux",
+            "assetType": "runtime",
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.0.0"
+          },
+          "runtimes/linux/lib/netstandard2.0/System.Fabric.dll": {
+            "rid": "linux",
+            "assetType": "runtime",
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.0.0"
+          },
+          "runtimes/linux/lib/netstandard2.0/System.Private.CompilerServices.ICastable.dll": {
+            "rid": "linux",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.25405.0"
+          },
+          "runtimes/linux/lib/netstandard2.0/System.Private.Interop.dll": {
+            "rid": "linux",
+            "assetType": "runtime",
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win/lib/netstandard2.0/Microsoft.ServiceFabric.Internal.Strings.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.0.0"
+          },
+          "runtimes/win/lib/netstandard2.0/Microsoft.ServiceFabric.Internal.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.0.0"
+          },
+          "runtimes/win/lib/netstandard2.0/Microsoft.ServiceFabric.Preview.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.0.0"
+          },
+          "runtimes/win/lib/netstandard2.0/StartupServicesModel.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.0.0"
+          },
+          "runtimes/win/lib/netstandard2.0/System.Fabric.Management.ServiceModel.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.0.0"
+          },
+          "runtimes/win/lib/netstandard2.0/System.Fabric.Strings.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.0.0"
+          },
+          "runtimes/win/lib/netstandard2.0/System.Fabric.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.0.0"
           }
         }
       },
@@ -1153,11 +1335,25 @@
           }
         }
       },
+      "TS.EntityFrameworkCore.GenericRepository/8.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/GenericRepository.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.0.0"
+          }
+        }
+      },
       "CleanArchitecture.Application/1.0.0": {
         "dependencies": {
           "CleanArchitecture.Domain": "1.0.0",
+          "EntityFrameworkCore.Pagination": "8.0.0",
           "FluentValidation": "11.11.0",
-          "MediatR": "12.4.1"
+          "MediatR": "12.4.1",
+          "Microsoft.EntityFrameworkCore.UnitOfWork": "3.1.0",
+          "Microsoft.ServiceFabric": "10.1.2493"
         },
         "runtime": {
           "CleanArchitecture.Application.dll": {
@@ -1167,6 +1363,10 @@
         }
       },
       "CleanArchitecture.Domain/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.UnitOfWork": "3.1.0",
+          "TS.EntityFrameworkCore.GenericRepository": "8.0.0"
+        },
         "runtime": {
           "CleanArchitecture.Domain.dll": {
             "assemblyVersion": "1.0.0",
@@ -1180,7 +1380,9 @@
           "CleanArchitecture.Application": "1.0.0",
           "CleanArchitecture.Domain": "1.0.0",
           "DocumentFormat.OpenXml": "3.2.0",
-          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0"
+          "EntityFrameworkCore.Pagination": "8.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0",
+          "Microsoft.EntityFrameworkCore.UnitOfWork": "3.1.0"
         },
         "runtime": {
           "CleanArchitecture.Persistance.dll": {
@@ -1192,8 +1394,10 @@
       "CleanArchitecture.Presentation/1.0.0": {
         "dependencies": {
           "CleanArchitecture.Application": "1.0.0",
+          "EntityFrameworkCore.Pagination": "8.0.0",
           "MediatR": "12.4.1",
-          "Microsoft.AspNetCore.Mvc.Core": "2.2.5"
+          "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
+          "Microsoft.EntityFrameworkCore.UnitOfWork": "3.1.0"
         },
         "runtime": {
           "CleanArchitecture.Presentation.dll": {
@@ -1258,6 +1462,13 @@
       "sha512": "sha512-OEx4ds9r2bw2/45VZwfw11lLv4y+mC2FUZxp7LsjmauFxj92K1kx8hafSBvls+V9s0WH0wv84B1LfWN/EaGfkg==",
       "path": "elmah.corelibrary/1.2.2",
       "hashPath": "elmah.corelibrary.1.2.2.nupkg.sha512"
+    },
+    "EntityFrameworkCore.Pagination/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oYKNuwJQa43G+vAPW/pAjf7mO+91q0VmTZrif++zlPYMK+AQGSAkmTc1dtijvVwAoaAjLqsj7KJ0/Pb0RJ7PGw==",
+      "path": "entityframeworkcore.pagination/8.0.0",
+      "hashPath": "entityframeworkcore.pagination.8.0.0.nupkg.sha512"
     },
     "FluentValidation/11.11.0": {
       "type": "package",
@@ -1490,6 +1701,13 @@
       "path": "microsoft.entityframeworkcore.analyzers/8.0.0",
       "hashPath": "microsoft.entityframeworkcore.analyzers.8.0.0.nupkg.sha512"
     },
+    "Microsoft.EntityFrameworkCore.AutoHistory/3.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AUyDffkoWa8urNm0z2TMX7VxYPal5LuHlirlWpzz7xKFMoSwmqpclz9ODXxmgrHLQ7/yT2Pv9Id0HO59dsKxWw==",
+      "path": "microsoft.entityframeworkcore.autohistory/3.1.1",
+      "hashPath": "microsoft.entityframeworkcore.autohistory.3.1.1.nupkg.sha512"
+    },
     "Microsoft.EntityFrameworkCore.Design/8.0.0": {
       "type": "package",
       "serviceable": true,
@@ -1517,6 +1735,13 @@
       "sha512": "sha512-zRdaXiiB1gEA0b+AJTd2+drh78gkEA4HyZ1vqNZrKq4xwW8WwavSiQsoeb1UsIMZkocLMBbhQYWClkZzuTKEgQ==",
       "path": "microsoft.entityframeworkcore.tools/8.0.0",
       "hashPath": "microsoft.entityframeworkcore.tools.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.UnitOfWork/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JzHpeIljFflhg3TWuro6SlaRR8UJ026PB7RhSg6Z3aNJxxP8x+Mfm+lHpM2lrgw3+T6blPZwxik0lt9lIzW0EQ==",
+      "path": "microsoft.entityframeworkcore.unitofwork/3.1.0",
+      "hashPath": "microsoft.entityframeworkcore.unitofwork.3.1.0.nupkg.sha512"
     },
     "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
       "type": "package",
@@ -1699,6 +1924,13 @@
       "sha512": "sha512-tTaBT8qjk3xINfESyOPE2rIellPvB7qpVqiWiyA/lACVvz+xOGiXhFUfohcx82NLbi5avzLW0lx+s6oAqQijfw==",
       "path": "microsoft.openapi/1.6.14",
       "hashPath": "microsoft.openapi.1.6.14.nupkg.sha512"
+    },
+    "Microsoft.ServiceFabric/10.1.2493": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NjUkswmfR4nD1F14Sir0VK8SQnsCf/kP7vDlLJz68xNxcTW8c3blJaGZwhYKbpwi6laNPAlNOPR6vzIM6AkNow==",
+      "path": "microsoft.servicefabric/10.1.2493",
+      "hashPath": "microsoft.servicefabric.10.1.2493.nupkg.sha512"
     },
     "Microsoft.SqlServer.Server/1.0.0": {
       "type": "package",
@@ -2000,6 +2232,13 @@
       "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
+    },
+    "TS.EntityFrameworkCore.GenericRepository/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Xt2+9exUvy4IzPGJZQh3J3dmntTiGAC8+8ehJACcWzwq+2iNTvMNFIoiOQXSlI/PJxh4ZUM/TnGRsv2jLuF4nw==",
+      "path": "ts.entityframeworkcore.genericrepository/8.0.0",
+      "hashPath": "ts.entityframeworkcore.genericrepository.8.0.0.nupkg.sha512"
     },
     "CleanArchitecture.Application/1.0.0": {
       "type": "project",

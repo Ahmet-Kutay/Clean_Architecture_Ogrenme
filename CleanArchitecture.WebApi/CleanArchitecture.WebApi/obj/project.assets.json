@@ -116,6 +116,18 @@
           "lib/Elmah.dll": {}
         }
       },
+      "EntityFrameworkCore.Pagination/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/EntityFrameworkCorePagination.Nuget.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/EntityFrameworkCorePagination.Nuget.dll": {}
+        }
+      },
       "FluentValidation/11.11.0": {
         "type": "package",
         "compile": {
@@ -853,6 +865,23 @@
           "lib/netstandard2.0/_._": {}
         }
       },
+      "Microsoft.EntityFrameworkCore.AutoHistory/3.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "3.1.0",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.AutoHistory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.AutoHistory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.EntityFrameworkCore.Design/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -920,6 +949,23 @@
         },
         "runtime": {
           "lib/net8.0/_._": {}
+        }
+      },
+      "Microsoft.EntityFrameworkCore.UnitOfWork/3.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.AutoHistory": "3.1.1",
+          "Microsoft.EntityFrameworkCore.Relational": "3.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.UnitOfWork.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.UnitOfWork.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
@@ -2206,8 +2252,10 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "CleanArchitecture.Domain": "1.0.0",
+          "EntityFrameworkCore.Pagination": "8.0.0",
           "FluentValidation": "11.11.0",
           "MediatR": "12.4.1",
+          "Microsoft.EntityFrameworkCore.UnitOfWork": "3.1.0",
           "Microsoft.ServiceFabric": "10.1.2493"
         },
         "compile": {
@@ -2221,6 +2269,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.UnitOfWork": "3.1.0",
           "TS.EntityFrameworkCore.GenericRepository": "8.0.0"
         },
         "compile": {
@@ -2238,7 +2287,9 @@
           "CleanArchitecture.Application": "1.0.0",
           "CleanArchitecture.Domain": "1.0.0",
           "DocumentFormat.OpenXml": "3.2.0",
-          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0"
+          "EntityFrameworkCore.Pagination": "8.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0",
+          "Microsoft.EntityFrameworkCore.UnitOfWork": "3.1.0"
         },
         "compile": {
           "bin/placeholder/CleanArchitecture.Persistance.dll": {}
@@ -2252,8 +2303,10 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "CleanArchitecture.Application": "1.0.0",
+          "EntityFrameworkCore.Pagination": "8.0.0",
           "MediatR": "12.4.1",
-          "Microsoft.AspNetCore.Mvc.Core": "2.2.5"
+          "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
+          "Microsoft.EntityFrameworkCore.UnitOfWork": "3.1.0"
         },
         "compile": {
           "bin/placeholder/CleanArchitecture.Presentation.dll": {}
@@ -2390,6 +2443,20 @@
         "elmah.corelibrary.1.2.2.nupkg.sha512",
         "elmah.corelibrary.nuspec",
         "lib/Elmah.dll"
+      ]
+    },
+    "EntityFrameworkCore.Pagination/8.0.0": {
+      "sha512": "oYKNuwJQa43G+vAPW/pAjf7mO+91q0VmTZrif++zlPYMK+AQGSAkmTc1dtijvVwAoaAjLqsj7KJ0/Pb0RJ7PGw==",
+      "type": "package",
+      "path": "entityframeworkcore.pagination/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "entityframeworkcore.pagination.8.0.0.nupkg.sha512",
+        "entityframeworkcore.pagination.nuspec",
+        "icon.jpeg",
+        "lib/net8.0/EntityFrameworkCorePagination.Nuget.dll"
       ]
     },
     "FluentValidation/11.11.0": {
@@ -3334,6 +3401,19 @@
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
+    "Microsoft.EntityFrameworkCore.AutoHistory/3.1.1": {
+      "sha512": "AUyDffkoWa8urNm0z2TMX7VxYPal5LuHlirlWpzz7xKFMoSwmqpclz9ODXxmgrHLQ7/yT2Pv9Id0HO59dsKxWw==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.autohistory/3.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.AutoHistory.dll",
+        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.AutoHistory.xml",
+        "microsoft.entityframeworkcore.autohistory.3.1.1.nupkg.sha512",
+        "microsoft.entityframeworkcore.autohistory.nuspec"
+      ]
+    },
     "Microsoft.EntityFrameworkCore.Design/8.0.0": {
       "sha512": "94reKYu63jg4O75UI3LMJHwOSi8tQ6IfubiZhdnSsWcgtmAuF8OyLfjK/MIxuvaQRJZAF6E747FIuxjOtb8/og==",
       "type": "package",
@@ -3400,6 +3480,19 @@
         "tools/net461/win-x86/ef.exe",
         "tools/netcoreapp2.0/any/ef.dll",
         "tools/netcoreapp2.0/any/ef.runtimeconfig.json"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.UnitOfWork/3.1.0": {
+      "sha512": "JzHpeIljFflhg3TWuro6SlaRR8UJ026PB7RhSg6Z3aNJxxP8x+Mfm+lHpM2lrgw3+T6blPZwxik0lt9lIzW0EQ==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.unitofwork/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.UnitOfWork.dll",
+        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.UnitOfWork.xml",
+        "microsoft.entityframeworkcore.unitofwork.3.1.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.unitofwork.nuspec"
       ]
     },
     "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
@@ -5855,6 +5948,7 @@
       "MediatR >= 12.4.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.0",
+      "Microsoft.EntityFrameworkCore.UnitOfWork >= 3.1.0",
       "Newtonsoft.Json >= 13.0.1",
       "Swashbuckle.AspNetCore >= 6.6.2",
       "TS.EntityFrameworkCore.GenericRepository >= 8.0.0",
@@ -5952,6 +6046,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[8.0.0, )"
+          },
+          "Microsoft.EntityFrameworkCore.UnitOfWork": {
+            "target": "Package",
+            "version": "[3.1.0, )"
           },
           "Newtonsoft.Json": {
             "target": "Package",

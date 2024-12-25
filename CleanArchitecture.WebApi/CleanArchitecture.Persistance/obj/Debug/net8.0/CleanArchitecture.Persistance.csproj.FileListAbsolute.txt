@@ -2,7 +2,9 @@ C:\Users\Kutay\Desktop\Clean_Architecture_Ogrenme\CleanArchitecture.WebApi\Clean
 C:\Users\Kutay\Desktop\Clean_Architecture_Ogrenme\CleanArchitecture.WebApi\CleanArchitecture.Persistance\bin\Debug\net8.0\CleanArchitecture.Persistance.runtimeconfig.json
 C:\Users\Kutay\Desktop\Clean_Architecture_Ogrenme\CleanArchitecture.WebApi\CleanArchitecture.Persistance\bin\Debug\net8.0\CleanArchitecture.Persistance.dll
 C:\Users\Kutay\Desktop\Clean_Architecture_Ogrenme\CleanArchitecture.WebApi\CleanArchitecture.Persistance\bin\Debug\net8.0\CleanArchitecture.Persistance.pdb
+C:\Users\Kutay\Desktop\Clean_Architecture_Ogrenme\CleanArchitecture.WebApi\CleanArchitecture.Persistance\bin\Debug\net8.0\CleanArchitecture.Application.dll
 C:\Users\Kutay\Desktop\Clean_Architecture_Ogrenme\CleanArchitecture.WebApi\CleanArchitecture.Persistance\bin\Debug\net8.0\CleanArchitecture.Domain.dll
+C:\Users\Kutay\Desktop\Clean_Architecture_Ogrenme\CleanArchitecture.WebApi\CleanArchitecture.Persistance\bin\Debug\net8.0\CleanArchitecture.Application.pdb
 C:\Users\Kutay\Desktop\Clean_Architecture_Ogrenme\CleanArchitecture.WebApi\CleanArchitecture.Persistance\bin\Debug\net8.0\CleanArchitecture.Domain.pdb
 C:\Users\Kutay\Desktop\Clean_Architecture_Ogrenme\CleanArchitecture.WebApi\CleanArchitecture.Persistance\obj\Debug\net8.0\CleanArchitecture.Persistance.csproj.AssemblyReference.cache
 C:\Users\Kutay\Desktop\Clean_Architecture_Ogrenme\CleanArchitecture.WebApi\CleanArchitecture.Persistance\obj\Debug\net8.0\CleanArchitecture.Persistance.GeneratedMSBuildEditorConfig.editorconfig
@@ -16,5 +18,3 @@ C:\Users\Kutay\Desktop\Clean_Architecture_Ogrenme\CleanArchitecture.WebApi\Clean
 C:\Users\Kutay\Desktop\Clean_Architecture_Ogrenme\CleanArchitecture.WebApi\CleanArchitecture.Persistance\obj\Debug\net8.0\CleanArchitecture.Persistance.pdb
 C:\Users\Kutay\Desktop\Clean_Architecture_Ogrenme\CleanArchitecture.WebApi\CleanArchitecture.Persistance\obj\Debug\net8.0\CleanArchitecture.Persistance.genruntimeconfig.cache
 C:\Users\Kutay\Desktop\Clean_Architecture_Ogrenme\CleanArchitecture.WebApi\CleanArchitecture.Persistance\obj\Debug\net8.0\ref\CleanArchitecture.Persistance.dll
-C:\Users\Kutay\Desktop\Clean_Architecture_Ogrenme\CleanArchitecture.WebApi\CleanArchitecture.Persistance\bin\Debug\net8.0\CleanArchitecture.Application.dll
-C:\Users\Kutay\Desktop\Clean_Architecture_Ogrenme\CleanArchitecture.WebApi\CleanArchitecture.Persistance\bin\Debug\net8.0\CleanArchitecture.Application.pdb
