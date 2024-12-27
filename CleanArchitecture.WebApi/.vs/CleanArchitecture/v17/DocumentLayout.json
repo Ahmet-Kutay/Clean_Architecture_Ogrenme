@@ -3,24 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DD1E51E9-ACD8-4CE8-85FC-22A4425E9ABB}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|c:\\users\\kutay\\desktop\\clean_architecture_ogrenme\\cleanarchitecture.webapi\\cleanarchitecture.webapi\\configurations\\persistancediserviceinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1E51E9-ACD8-4CE8-85FC-22A4425E9ABB}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|solutionrelative:cleanarchitecture.webapi\\configurations\\persistancediserviceinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1E51E9-ACD8-4CE8-85FC-22A4425E9ABB}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|c:\\users\\kutay\\desktop\\clean_architecture_ogrenme\\cleanarchitecture.webapi\\cleanarchitecture.webapi\\configurations\\persistanceserviceinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1E51E9-ACD8-4CE8-85FC-22A4425E9ABB}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|solutionrelative:cleanarchitecture.webapi\\configurations\\persistanceserviceinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1E51E9-ACD8-4CE8-85FC-22A4425E9ABB}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|c:\\users\\kutay\\desktop\\clean_architecture_ogrenme\\cleanarchitecture.webapi\\cleanarchitecture.webapi\\configurations\\presentationserviceinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1E51E9-ACD8-4CE8-85FC-22A4425E9ABB}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|solutionrelative:cleanarchitecture.webapi\\configurations\\presentationserviceinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1E51E9-ACD8-4CE8-85FC-22A4425E9ABB}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|c:\\users\\kutay\\desktop\\clean_architecture_ogrenme\\cleanarchitecture.webapi\\cleanarchitecture.webapi\\configurations\\iserviceinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1E51E9-ACD8-4CE8-85FC-22A4425E9ABB}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|solutionrelative:cleanarchitecture.webapi\\configurations\\iserviceinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1E51E9-ACD8-4CE8-85FC-22A4425E9ABB}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|c:\\users\\kutay\\desktop\\clean_architecture_ogrenme\\cleanarchitecture.webapi\\cleanarchitecture.webapi\\configurations\\applicationserviceinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1E51E9-ACD8-4CE8-85FC-22A4425E9ABB}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|solutionrelative:cleanarchitecture.webapi\\configurations\\applicationserviceinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1E51E9-ACD8-4CE8-85FC-22A4425E9ABB}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|c:\\users\\kutay\\desktop\\clean_architecture_ogrenme\\cleanarchitecture.webapi\\cleanarchitecture.webapi\\configurations\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1E51E9-ACD8-4CE8-85FC-22A4425E9ABB}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|solutionrelative:cleanarchitecture.webapi\\configurations\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DD1E51E9-ACD8-4CE8-85FC-22A4425E9ABB}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|c:\\users\\kutay\\desktop\\clean_architecture_ogrenme\\cleanarchitecture.webapi\\cleanarchitecture.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD1E51E9-ACD8-4CE8-85FC-22A4425E9ABB}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|solutionrelative:cleanarchitecture.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD1E51E9-ACD8-4CE8-85FC-22A4425E9ABB}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|c:\\users\\kutay\\desktop\\clean_architecture_ogrenme\\cleanarchitecture.webapi\\cleanarchitecture.webapi\\optionssetup\\jwtbeareroptionssetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD1E51E9-ACD8-4CE8-85FC-22A4425E9ABB}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|solutionrelative:cleanarchitecture.webapi\\optionssetup\\jwtbeareroptionssetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD1E51E9-ACD8-4CE8-85FC-22A4425E9ABB}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|c:\\users\\kutay\\desktop\\clean_architecture_ogrenme\\cleanarchitecture.webapi\\cleanarchitecture.webapi\\configurations\\authorizeserviceinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1E51E9-ACD8-4CE8-85FC-22A4425E9ABB}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|solutionrelative:cleanarchitecture.webapi\\configurations\\authorizeserviceinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD1E51E9-ACD8-4CE8-85FC-22A4425E9ABB}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|c:\\users\\kutay\\desktop\\clean_architecture_ogrenme\\cleanarchitecture.webapi\\cleanarchitecture.webapi\\optionssetup\\jwtoptionssetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD1E51E9-ACD8-4CE8-85FC-22A4425E9ABB}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|solutionrelative:cleanarchitecture.webapi\\optionssetup\\jwtoptionssetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{609E315E-DB9A-4594-A8F9-F8B078BEF064}|CleanArchitecture.Infastructure\\CleanArchitecture.Infastructure.csproj|c:\\users\\kutay\\desktop\\clean_architecture_ogrenme\\cleanarchitecture.webapi\\cleanarchitecture.infastructure\\authentication\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{609E315E-DB9A-4594-A8F9-F8B078BEF064}|CleanArchitecture.Infastructure\\CleanArchitecture.Infastructure.csproj|solutionrelative:cleanarchitecture.infastructure\\authentication\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD1E51E9-ACD8-4CE8-85FC-22A4425E9ABB}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|c:\\users\\kutay\\desktop\\clean_architecture_ogrenme\\cleanarchitecture.webapi\\cleanarchitecture.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{DD1E51E9-ACD8-4CE8-85FC-22A4425E9ABB}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|solutionrelative:cleanarchitecture.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{DD1E51E9-ACD8-4CE8-85FC-22A4425E9ABB}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|c:\\users\\kutay\\desktop\\clean_architecture_ogrenme\\cleanarchitecture.webapi\\cleanarchitecture.webapi\\configurations\\infrastructureserviceinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1E51E9-ACD8-4CE8-85FC-22A4425E9ABB}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|solutionrelative:cleanarchitecture.webapi\\configurations\\infrastructureserviceinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,67 +50,119 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "JwtBearerOptionsSetup.cs",
-              "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.WebApi\\OptionsSetup\\JwtBearerOptionsSetup.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.WebApi\\OptionsSetup\\JwtBearerOptionsSetup.cs",
-              "ToolTip": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.WebApi\\OptionsSetup\\JwtBearerOptionsSetup.cs",
-              "RelativeToolTip": "CleanArchitecture.WebApi\\OptionsSetup\\JwtBearerOptionsSetup.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "IServiceInstaller.cs",
+              "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.WebApi\\Configurations\\IServiceInstaller.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.WebApi\\Configurations\\IServiceInstaller.cs",
+              "ToolTip": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.WebApi\\Configurations\\IServiceInstaller.cs",
+              "RelativeToolTip": "CleanArchitecture.WebApi\\Configurations\\IServiceInstaller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T07:24:42.173Z",
+              "WhenOpened": "2024-12-27T10:13:56.314Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "JwtOptionsSetup.cs",
-              "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.WebApi\\OptionsSetup\\JwtOptionsSetup.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.WebApi\\OptionsSetup\\JwtOptionsSetup.cs",
-              "ToolTip": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.WebApi\\OptionsSetup\\JwtOptionsSetup.cs",
-              "RelativeToolTip": "CleanArchitecture.WebApi\\OptionsSetup\\JwtOptionsSetup.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Title": "PresentationServiceInstaller.cs",
+              "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.WebApi\\Configurations\\PresentationServiceInstaller.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.WebApi\\Configurations\\PresentationServiceInstaller.cs",
+              "ToolTip": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.WebApi\\Configurations\\PresentationServiceInstaller.cs",
+              "RelativeToolTip": "CleanArchitecture.WebApi\\Configurations\\PresentationServiceInstaller.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAmwDYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T07:20:08.754Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "JwtOptions.cs",
-              "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.Infastructure\\Authentication\\JwtOptions.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.Infastructure\\Authentication\\JwtOptions.cs",
-              "ToolTip": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.Infastructure\\Authentication\\JwtOptions.cs",
-              "RelativeToolTip": "CleanArchitecture.Infastructure\\Authentication\\JwtOptions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T07:17:49.625Z",
+              "WhenOpened": "2024-12-27T10:09:08.919Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.WebApi\\appsettings.json",
-              "RelativeDocumentMoniker": "CleanArchitecture.WebApi\\appsettings.json",
-              "ToolTip": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.WebApi\\appsettings.json",
-              "RelativeToolTip": "CleanArchitecture.WebApi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-27T07:13:20.337Z",
+              "Title": "ApplicationServiceInstaller.cs",
+              "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.WebApi\\Configurations\\ApplicationServiceInstaller.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.WebApi\\Configurations\\ApplicationServiceInstaller.cs",
+              "ToolTip": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.WebApi\\Configurations\\ApplicationServiceInstaller.cs",
+              "RelativeToolTip": "CleanArchitecture.WebApi\\Configurations\\ApplicationServiceInstaller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T10:08:18.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PersistanceServiceInstaller.cs",
+              "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.WebApi\\Configurations\\PersistanceServiceInstaller.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.WebApi\\Configurations\\PersistanceServiceInstaller.cs",
+              "ToolTip": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.WebApi\\Configurations\\PersistanceServiceInstaller.cs",
+              "RelativeToolTip": "CleanArchitecture.WebApi\\Configurations\\PersistanceServiceInstaller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T10:07:03.469Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PersistanceDIServiceInstaller.cs",
+              "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.WebApi\\Configurations\\PersistanceDIServiceInstaller.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.WebApi\\Configurations\\PersistanceDIServiceInstaller.cs",
+              "ToolTip": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.WebApi\\Configurations\\PersistanceDIServiceInstaller.cs",
+              "RelativeToolTip": "CleanArchitecture.WebApi\\Configurations\\PersistanceDIServiceInstaller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T10:04:28.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.WebApi\\Configurations\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.WebApi\\Configurations\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.WebApi\\Configurations\\DependencyInjection.cs",
+              "RelativeToolTip": "CleanArchitecture.WebApi\\Configurations\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T10:08:39.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.WebApi\\Program.cs",
               "RelativeDocumentMoniker": "CleanArchitecture.WebApi\\Program.cs",
               "ToolTip": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.WebApi\\Program.cs",
               "RelativeToolTip": "CleanArchitecture.WebApi\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T07:10:22.878Z",
+              "WhenOpened": "2024-12-27T10:11:02.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthorizeServiceInstaller.cs",
+              "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.WebApi\\Configurations\\AuthorizeServiceInstaller.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.WebApi\\Configurations\\AuthorizeServiceInstaller.cs",
+              "ToolTip": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.WebApi\\Configurations\\AuthorizeServiceInstaller.cs",
+              "RelativeToolTip": "CleanArchitecture.WebApi\\Configurations\\AuthorizeServiceInstaller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T10:06:09.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "InfrastructureServiceInstaller.cs",
+              "DocumentMoniker": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.WebApi\\Configurations\\InfrastructureServiceInstaller.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.WebApi\\Configurations\\InfrastructureServiceInstaller.cs",
+              "ToolTip": "C:\\Users\\Kutay\\Desktop\\Clean_Architecture_Ogrenme\\CleanArchitecture.WebApi\\CleanArchitecture.WebApi\\Configurations\\InfrastructureServiceInstaller.cs",
+              "RelativeToolTip": "CleanArchitecture.WebApi\\Configurations\\InfrastructureServiceInstaller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T10:05:10.208Z",
               "EditorCaption": ""
             }
           ]

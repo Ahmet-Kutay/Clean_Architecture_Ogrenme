@@ -1,33 +1,39 @@
 using CleanArchitecture.Application.Features.CarFeatures.Commands.CreateCar;
-using CleanArchitecture.Application.Features.CarFeatures.Queries.GetAllCar;
 using CleanArchitecture.Domain.Dtos;
-using CleanArchitecture.Domain.Entities;
-using CleanArchitecture.Presentation.Abstraction;
-using EntityFrameworkCorePagination.Nuget.Pagination;
+using CleanArchitecture.Presentation.Controllers;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using Moq;
 
-namespace CleanArchitecture.Presentation.Controllers
+namespace CleanArchitecture.UnitTest
 {
-    public sealed class CarsController : ApiController
+    public class CarsControllerUnitTest
     {
-        public CarsController(IMediator mediator) : base(mediator) {}
-
-        [HttpPost("[action]")]
-        public async Task<IActionResult> Create(CreateCarCommand request,
-            CancellationToken cancellationToken)
+        [Fact]
+        public async void Create_ReturnsOkResult_WhenRequestIsValid()
         {
-            MessageResponse response = await _mediator.Send(request, cancellationToken);
-            return Ok(response);
-        }
+            //Arrange
+            var mediatorMock = new Mock<IMediator>();
+            CreateCarCommand createCarCommand = new(
+                "Toyota", "Corolla", 5000);
+            MessageResponse response = new("Ara? ba?ar?yla kaydedildi!");
+            CancellationToken cancellationToken = new();
 
-        [HttpGet("[action]")]
-        public async Task<IActionResult> GetAll(GetAllCarQuery request,
-            CancellationToken cancellationToken)
-        {
-            
-            PaginationResult<Car> response = await _mediator.Send(request, cancellationToken);
-            return Ok(response);
+            mediatorMock.Setup(m => m.Send(createCarCommand, cancellationToken))
+                .ReturnsAsync(response);
+
+            CarsController carsController = new(mediatorMock.Object);
+
+            //Act
+            var result = await carsController.Create(createCarCommand, cancellationToken);
+
+            //Assert
+            var okResult = Assert.IsType<OkObjectResult>(result);
+            var returnValue = Assert.IsType<MessageResponse>(okResult.Value);
+
+            Assert.Equal(response, returnValue);
+            mediatorMock.Verify(m => m.Send(createCarCommand, cancellationToken), Times.Once);
+
         }
     }
 }

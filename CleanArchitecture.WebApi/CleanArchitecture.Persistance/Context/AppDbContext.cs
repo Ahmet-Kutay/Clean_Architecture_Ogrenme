@@ -1,17 +1,19 @@
 ﻿using CleanArchitecture.Domain.Abstraction;
+using CleanArchitecture.Domain.Abstractions;
 using CleanArchitecture.Domain.Entities;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace CleanArchitecture.Persistance.Context;
-public sealed class AppDbContext : IdentityDbContext<User, IdentityRole, string>
+
+public sealed class AppDbContext : IdentityDbContext<User, Role, string>
 {
-    public AppDbContext(DbContextOptions options) : base(options){}
+    public AppDbContext(DbContextOptions options) : base(options) { }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.ApplyConfigurationsFromAssembly(typeof(AssemblyReference).Assembly);
+        modelBuilder.ApplyConfigurationsFromAssembly(typeof(AssemblyRefence).Assembly);
 
         modelBuilder.Ignore<IdentityUserLogin<string>>();
         modelBuilder.Ignore<IdentityUserRole<string>>();
@@ -20,10 +22,12 @@ public sealed class AppDbContext : IdentityDbContext<User, IdentityRole, string>
         modelBuilder.Ignore<IdentityRoleClaim<string>>();
         modelBuilder.Ignore<IdentityRole<string>>();
     }
+
+
     public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
     {
         var entires = ChangeTracker.Entries<Entity>();
-        foreach (var entry in entires) 
+        foreach (var entry in entires)
         {
             if (entry.State == EntityState.Added)
                 entry.Property(p => p.CreatedDate)
@@ -32,9 +36,7 @@ public sealed class AppDbContext : IdentityDbContext<User, IdentityRole, string>
             if (entry.State == EntityState.Modified)
                 entry.Property(p => p.UpdatedDate)
                     .CurrentValue = DateTime.Now;
-         
-         }
+        }
         return base.SaveChangesAsync(cancellationToken);
     }
-
 }
