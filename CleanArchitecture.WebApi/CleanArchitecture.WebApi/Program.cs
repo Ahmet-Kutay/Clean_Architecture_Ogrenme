@@ -9,6 +9,8 @@ using CleanArchitecture.Persistance.Context;
 using CleanArchitecture.Persistance.Repositories;
 using CleanArchitecture.Persistance.Services; // CarService'in namespace'i
 using CleanArchitecture.WebApi.Middleware;
+using CleanArchitecture.WebApi.OptionsSetup;
+using CleanArcihtecture.Infrastructure.Authenticaton;
 using FluentValidation;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
@@ -24,6 +26,11 @@ builder.Services.AddScoped<IMailService, MailService>();
 builder.Services.AddTransient<ExceptionMiddleware>();
 builder.Services.AddScoped<ICarRepository, CarRepository>();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+
+builder.Services.ConfigureOptions<JwtOptionsSetup>();
+builder.Services.ConfigureOptions<JwtBearerOptionsSetup>();
+
+builder.Services.AddAuthentication().AddJwtBearer();
 
 
 builder.Services.AddAutoMapper(typeof(CleanArchitecture.Persistance.AssemblyReference).Assembly);
