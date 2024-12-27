@@ -188,3 +188,9 @@ C:\Users\Kutay\Desktop\Clean_Architecture_Ogrenme\CleanArchitecture.WebApi\Clean
 C:\Users\Kutay\Desktop\Clean_Architecture_Ogrenme\CleanArchitecture.WebApi\CleanArchitecture.WebApi\obj\Debug\net8.0\ref\CleanArchitecture.WebApi.dll
 C:\Users\Kutay\Desktop\Clean_Architecture_Ogrenme\CleanArchitecture.WebApi\CleanArchitecture.WebApi\bin\Debug\net8.0\MR.EntityFrameworkCore.KeysetPagination.dll
 C:\Users\Kutay\Desktop\Clean_Architecture_Ogrenme\CleanArchitecture.WebApi\CleanArchitecture.WebApi\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Kutay\Desktop\Clean_Architecture_Ogrenme\CleanArchitecture.WebApi\CleanArchitecture.WebApi\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\Kutay\Desktop\Clean_Architecture_Ogrenme\CleanArchitecture.WebApi\CleanArchitecture.WebApi\bin\Debug\net8.0\GenericEmailService.dll
+C:\Users\Kutay\Desktop\Clean_Architecture_Ogrenme\CleanArchitecture.WebApi\CleanArchitecture.WebApi\bin\Debug\net8.0\MailKit.dll
+C:\Users\Kutay\Desktop\Clean_Architecture_Ogrenme\CleanArchitecture.WebApi\CleanArchitecture.WebApi\bin\Debug\net8.0\MimeKit.dll
+C:\Users\Kutay\Desktop\Clean_Architecture_Ogrenme\CleanArchitecture.WebApi\CleanArchitecture.WebApi\bin\Debug\net8.0\CleanArchitecture.Infastructure.dll
+C:\Users\Kutay\Desktop\Clean_Architecture_Ogrenme\CleanArchitecture.WebApi\CleanArchitecture.WebApi\bin\Debug\net8.0\CleanArchitecture.Infastructure.pdb

@@ -11,3 +11,8 @@ C:\Users\Kutay\Desktop\Clean_Architecture_Ogrenme\CleanArchitecture.WebApi\Clean
 C:\Users\Kutay\Desktop\Clean_Architecture_Ogrenme\CleanArchitecture.WebApi\CleanArchitecture.Infastructure\obj\Debug\net8.0\refint\CleanArchitecture.Infastructure.dll
 C:\Users\Kutay\Desktop\Clean_Architecture_Ogrenme\CleanArchitecture.WebApi\CleanArchitecture.Infastructure\obj\Debug\net8.0\CleanArchitecture.Infastructure.pdb
 C:\Users\Kutay\Desktop\Clean_Architecture_Ogrenme\CleanArchitecture.WebApi\CleanArchitecture.Infastructure\obj\Debug\net8.0\ref\CleanArchitecture.Infastructure.dll
+C:\Users\Kutay\Desktop\Clean_Architecture_Ogrenme\CleanArchitecture.WebApi\CleanArchitecture.Infastructure\bin\Debug\net8.0\CleanArchitecture.Application.dll
+C:\Users\Kutay\Desktop\Clean_Architecture_Ogrenme\CleanArchitecture.WebApi\CleanArchitecture.Infastructure\bin\Debug\net8.0\CleanArchitecture.Domain.dll
+C:\Users\Kutay\Desktop\Clean_Architecture_Ogrenme\CleanArchitecture.WebApi\CleanArchitecture.Infastructure\bin\Debug\net8.0\CleanArchitecture.Application.pdb
+C:\Users\Kutay\Desktop\Clean_Architecture_Ogrenme\CleanArchitecture.WebApi\CleanArchitecture.Infastructure\bin\Debug\net8.0\CleanArchitecture.Domain.pdb
+C:\Users\Kutay\Desktop\Clean_Architecture_Ogrenme\CleanArchitecture.WebApi\CleanArchitecture.Infastructure\obj\Debug\net8.0\CleanArc.67765A05.Up2Date

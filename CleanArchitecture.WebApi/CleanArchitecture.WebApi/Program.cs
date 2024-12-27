@@ -1,24 +1,25 @@
 using CleanArchitecture.Application.Behaviors;
 using CleanArchitecture.Application.Services;
+using CleanArchitecture.Domain.Abstractions;
+using CleanArchitecture.Domain.Entities;
 using CleanArchitecture.Domain.Repositories;
+using CleanArchitecture.Infrastructure.Services;
+using CleanArchitecture.Persistance;
 using CleanArchitecture.Persistance.Context;
 using CleanArchitecture.Persistance.Repositories;
 using CleanArchitecture.Persistance.Services; // CarService'in namespace'i
-using CleanArchitecture.Persistence.Repositories;
 using CleanArchitecture.WebApi.Middleware;
 using FluentValidation;
 using MediatR;
-using Microsoft.EntityFrameworkCore;
-using CleanArchitecture.Domain.Abstractions;
-using CleanArchitecture.Persistance;
 using Microsoft.AspNetCore.Identity;
-using CleanArchitecture.Domain.Entities;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Do�ru e�le�tirme yap�l�r
 builder.Services.AddScoped<ICarService, CarService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddScoped<IMailService, MailService>();
 
 builder.Services.AddTransient<ExceptionMiddleware>();
 builder.Services.AddScoped<ICarRepository, CarRepository>();
